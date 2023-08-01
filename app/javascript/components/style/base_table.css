@@ -25,6 +25,7 @@
     color: #ffffff;
     padding: 10px 25px;
     border: none;
+    cursor: pointer;
 }
 
 .base-table-btn a {
@@ -32,6 +33,7 @@
     font-weight: bold;
     font-size: 14px;
     margin-right: 13px;
+    cursor: pointer;
 }
 
 .base-table-search input {
