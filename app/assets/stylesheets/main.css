@@ -1,0 +1,50 @@
+body {
+    align-items: center;
+    background-color: #F0E7E9;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjEwMjQiIHZpZXdCb3g9IjAgMCAxNDQwIDEwMjQiIHdpZHRoPSIxNDQwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Im0xNDQwIDUxMC4wMDA2NDh2LTUxMC4wMDA2NDhoLTE0NDB2Mzg0LjAwMDY0OGM0MTcuMzExOTM5IDEzMS4xNDIxNzkgODkxIDE3MS41MTMgMTQ0MCAxMjZ6IiBmaWxsPSIjZmZmIi8+PC9zdmc+);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #261B23;
+    display: flex;
+    flex-direction: column;
+    font-family: "Nunito", Sans-Serif;
+    font-size: calc(0.9em + 0.5vw);
+    font-style: normal;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 1.25;
+    min-height: 80vh;
+    text-align: center;
+}
+
+nav a {
+    background: #D30001;
+    border-radius: 100%;
+    display: flex;
+    transition: background 0.25s cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+nav a img {
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn {
+    background: #ffffff;
+    border-radius: 6px !important;
+    color: #261B23;
+    padding: 10px 25px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    text-decoration: none;
+    display: block;
+}
+
+.btn:hover, .btn:focus {
+    background: #D30001;
+    color: #ffffff;
+}

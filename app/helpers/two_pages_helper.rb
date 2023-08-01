@@ -1,0 +1,2 @@
+module TwoPagesHelper
+end

@@ -1,0 +1,187 @@
+.back-one {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+
+.back-one .btn{
+    background: #D30001;
+    border-radius: 6px !important;
+    color: #ffffff;
+    padding: 10px 25px;
+    margin: 10px;
+    font-size: 16px;
+    border: 1px solid #D30001;
+    text-decoration: none;
+    display: block;
+}
+
+.back-one .btn:hover, .back-one .btn:focus {
+    background: #ffffff;
+    color: #261B23;
+    border: 1px solid #D30001;
+}
+
+.content {
+    font-weight: bold;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    height: 80vh;
+    align-items: center;
+}
+
+.content .left {
+    width: 50%;
+}
+
+.content .left h1{
+    text-align: left;
+}
+
+.content .left p{
+    text-align: justify;
+}
+
+.content .right {
+    background-color: #fff;
+    border: 1px dashed;
+    border-radius: 10px;
+    max-height: 370px;
+    overflow-x: auto;
+}
+
+.component {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin: 20px;
+    text-align: justify;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.component .form {
+    margin-right: 10px;
+}
+
+.component .options {
+    margin-left: 10px;
+}
+
+.component input, .component textarea {
+    width: 100%;
+    margin: 7px auto;
+}
+
+.component input, .component textarea {
+    border: 1px solid #dce0e5;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 560;
+    color: #d2d2d2;
+    border-radius: 3px;
+    font-family: "Nunito", Sans-Serif;
+}
+
+.component input:focus-visible, .component textarea:focus-visible {
+    border: 1px solid #dce0e5;
+}
+
+.component .form-control {
+    display: flex;
+    align-items: center;
+}
+
+.component .form i {
+    padding: 10px
+}
+
+/* Dropdown */
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dd-button {
+    display: inline-block;
+    border: 1px solid #dce0e5;
+    border-radius: 4px;
+    padding: 10px 35px 10px 15px;
+    background-color: #ffffff;
+    color: #2870b1;
+    cursor: pointer;
+    white-space: nowrap;
+    margin: 7px auto;
+    font-weight: 300;
+    font-size: 15px;
+    font-family: "Nunito", Sans-Serif;
+}
+
+.dd-button:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+}
+  
+.dd-button:hover {
+    background-color: #eeeeee;
+}
+  
+  
+.dd-input {
+    display: none;
+}
+  
+.dd-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 0px;
+    margin: 2px 0 0 0;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    list-style-type: none;
+}
+  
+.dd-input + .dd-menu {
+    display: none;
+} 
+  
+.dd-input:checked + .dd-menu {
+    display: block;
+} 
+  
+.dd-menu li {
+    padding: 5px 20px;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 15px;
+    font-weight: 600;
+}
+  
+.dd-menu li:hover {
+    background-color: #f6f6f6;
+  }
+  
+.dd-menu li a {
+    display: block;
+    margin: -10px -20px;
+    padding: 10px 20px;
+}
+  
+.dd-menu li.divider{
+    padding: 0;
+    border-bottom: 1px solid #cccccc;
+}
